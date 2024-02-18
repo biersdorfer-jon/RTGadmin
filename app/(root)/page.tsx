@@ -1,10 +1,16 @@
+"use client";
 import { Button } from "@/components/ui/button";
+import { Modal } from "@/components/ui/modal";
+import { UserButton } from "@clerk/nextjs";
+import { StoreModal } from '../../components/modals/store-modal';
 
-export default function Home() {
+const SetupPage  = () => {
+
     return (
       <div>
-        <Button>Hey</Button>
+        Root Page
       </div>
     );
   }
-  
+
+  export default SetupPage;
